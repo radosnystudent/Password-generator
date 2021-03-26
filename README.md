@@ -1,2 +1,2 @@
 # Password-generator
-Webpage with simple password generator
+HTML page with really simple password generator
