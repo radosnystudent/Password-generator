@@ -95,7 +95,6 @@ h2 {
 }
 
 .grid-item {
-    padding: 20px;
+    padding: 10px;
     text-align: left;
-    min-width: 100px;
 }

@@ -23,7 +23,7 @@ const generatePasswd = () => {
     let password_length = document.getElementById("length").value;
 
     if(characters.length > 0){
-        if(password_length > 7 && password_length <= 50){
+        if(typeof password_length == 'number' && password_length > 7 && password_length <= 50){
             let result = '';
             let characters_length = characters.length;
 
