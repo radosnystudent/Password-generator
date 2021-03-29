@@ -1,6 +1,6 @@
 
 const generatePasswd = () => {
-    let = characters = '';
+    let characters = '';
     if(document.getElementById("lowletters").checked)
         characters += 'abcdefghijklmnopqrstuvwxyz';
     if(document.getElementById("capletters").checked)
@@ -20,8 +20,8 @@ const generatePasswd = () => {
     if(document.getElementById("brackets").checked)
         characters += '()[]{}';
 
-    let password_length = document.getElementById("length").value;
-
+    let password_length = parseInt(document.getElementById("length").value);
+    
     if(characters.length > 0){
         if(typeof password_length == 'number' && password_length > 7 && password_length <= 50){
             let result = '';
