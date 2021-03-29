@@ -1,0 +1,104 @@
+
+body {
+	margin: auto 0;
+	background: linear-gradient(to top right, #192b2b, #335657, #192b2b);
+	background-size: 400% 400%;
+	
+	animation: gradient 20s ease infinite;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+label {
+    font: 1rem 'Fira Sans', sans-serif;
+    font-weight: 700;
+    color: white;
+}
+
+input {
+    margin: .4rem;
+}
+
+h2 {
+    margin-bottom: 4rem;
+    font-weight: 900;
+    font-size: 500px;
+    background-color: red;
+    
+    background-image: linear-gradient(-145deg, #f3ec78, #af4261);
+    
+    background-size: 100%;
+    background-repeat: repeat;
+  
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+}
+
+.ul {
+    text-align: left;
+}
+
+.centerDiv {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 90vh;
+    min-width: 50vw;
+}
+
+.mycheckbox {
+    padding-top: 5px;
+}
+
+#length{
+    max-width: 3em;
+    min-width: 2em;
+}
+
+.submitDiv {
+    margin-top: 0;
+    text-align: center;
+}
+
+.outputDiv {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.input {
+    font-family: inherit;
+    font-size: inherit;
+    padding: 2px 6px;
+    background-color: white;
+    visibility: hidden;
+}
+
+.second-part {
+    text-align: left;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto;
+    padding: 10px;
+}
+
+.grid-item {
+    padding: 20px;
+    text-align: left;
+    min-width: 100px;
+}
